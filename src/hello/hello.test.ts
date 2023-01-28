@@ -1,6 +1,6 @@
-import { assert, expect, test } from "vitest";
-import { hello } from "./hello";
+import { assert, expect, test } from 'vitest'
+import { hello } from './hello'
 
-test("hello world test", () => {
-  expect("hello", hello());
-});
+test('hello world test', () => {
+    expect('hello', hello())
+})
