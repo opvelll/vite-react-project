@@ -28,6 +28,7 @@
         "eslint-config-prettier": "^8.6.0",
         "eslint-plugin-react": "^7.32.1",
         "husky": "^8.0.0",
+        "lint-staged": "^13.1.0",
         "prettier": "2.8.3",
         "typescript": "^4.9.3",
         "vite": "^4.0.0",
@@ -41,5 +42,11 @@
         "cz-customizable": {
             "config": ".cz-config.cjs"
         }
+    },
+    "lint-staged": {
+        "*.{js,jsx,cjs,mjs,json,ts,tsx,md,html,css}": [
+            "eslint --cache",
+            "prettier --write"
+        ]
     }
 }
