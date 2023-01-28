@@ -9,6 +9,7 @@ module.exports = {
         'plugin:react/recommended',
         'plugin:react/jsx-runtime',
         'plugin:@typescript-eslint/recommended',
+        'prettier',
     ],
     overrides: [],
     parser: '@typescript-eslint/parser',
