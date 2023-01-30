@@ -1,26 +1,28 @@
-### 個人用
+### 個人用プロジェクト設定
 
 設定してあるもの
 
--   volto
--   vite
--   react
--   typescript
--   husky
--   prettier
--   eslint
--   commitlint(あと vscode で commitizen)
+-   Volta
+-   Vite
+-   React
+-   TypeScript
+-   Vitest
+-   React Testing Library
+-   Prettier
+-   ESLint
+-   Husky
+-   commitlint(あと VSCode で Commitizen)
 
 ### 用意するもの
 
-windows + WSL 等 git コマンドが動く環境想定
+Windows + WSL 等 git コマンドが動く環境
 
-vscode
+VSCode
 
-volto
+Volta
 
 ### 手順
 
 npm install
 
-vscode の拡張機能をインストール
+VSCode の拡張機能を手動で入れる
