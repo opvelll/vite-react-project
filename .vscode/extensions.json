@@ -2,6 +2,7 @@
     "recommendations": [
         "esbenp.prettier-vscode",
         "knisterpeter.vscode-commitizen",
-        "dbaeumer.vscode-eslint"
+        "dbaeumer.vscode-eslint",
+        "bierner.markdown-mermaid"
     ]
 }
